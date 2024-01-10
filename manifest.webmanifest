@@ -1,0 +1,13 @@
+{
+  "name": "Noodle: a chatbot with a noodle for a brain",
+  "short_name": "Noodle",
+  "description": "A playful chatbot that works offline: games, jokes, tools, voices and moods.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7ea",
+  "theme_color": "#ffd166",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
