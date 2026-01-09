@@ -1,0 +1,37 @@
+{
+  "name": "chatbot-random-fun",
+  "version": "1.0.0",
+  "description": "Noodle: a playful chatbot that works fully offline (games, jokes, tools, moods and voices) and can plug into Claude for anything else.",
+  "type": "module",
+  "main": "src/engine/bot.js",
+  "bin": {
+    "noodle": "cli.js"
+  },
+  "scripts": {
+    "start": "node serve.js",
+    "cli": "node cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "chatbot",
+    "offline",
+    "games",
+    "claude",
+    "anthropic",
+    "fun",
+    "javascript"
+  ],
+  "author": "Mohammad Uzair Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f20230125-sudo/Chatbot-random-fun.git"
+  },
+  "homepage": "https://f20230125-sudo.github.io/Chatbot-random-fun/",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  }
+}
